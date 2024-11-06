@@ -1,21 +1,15 @@
 <template>
-  <div>
-      <MenuTablaMultiplicar/>
-      <hr>
-      <router-view/>
-  </div>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-
-import MenuTablaMultiplicar from './components/MenuTablaMultiplicar'
-
-
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    MenuTablaMultiplicar
+    HelloWorld
   }
 }
 </script>
